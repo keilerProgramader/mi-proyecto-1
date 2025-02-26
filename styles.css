@@ -1,0 +1,281 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-open nav {
+    display: block;
+}
+
+/* ... (resto del CSS) ... */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-open nav {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerca_de {
+    text-align: left;
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+.acerca_de h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+acerca_de p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.seccion-1 img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.seccion-2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.servicios {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.servicios h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.servicios-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.servicio {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.servicio:hover {
+    transform: translateY(-5px);
+}
+
+.servicio i {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.servicio h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.servicio p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.servicio a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.servicio a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .seccion-1 {
+        flex-direction: column;
+    }
+
+    .seccion-1 img {
+        margin: 20px auto 0;
+        max-width: 200px;
+    }
+
+    .acerca_de {
+        font-size: 1.2em;
+    }
+
+    nav h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .acerca_de {
+        font-size: 1.5em;
+    }
+}
